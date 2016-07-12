@@ -5,6 +5,10 @@ import java.util.List;
 public class RoseTree extends Flower {
     private Rose rose;
 
+    public RoseTree(String nameOfFlower, BouquetOfFlowers bouquet) {
+        super(nameOfFlower, bouquet);
+    }
+
     public Rose getRose() {
         return rose;
     }
