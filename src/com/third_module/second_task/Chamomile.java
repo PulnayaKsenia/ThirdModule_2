@@ -1,10 +1,10 @@
 package com.third_module.second_task;
 
 public class Chamomile extends Flower {
-    private Integer number;
+    private int number;
 
-    public Chamomile(String nameOfFlower, BouquetOfFlowers bouquet) {
-        super(nameOfFlower, bouquet);
+    public Chamomile(String name) {
+        super(name);
     }
 
     @Override

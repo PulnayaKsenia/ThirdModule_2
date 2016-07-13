@@ -3,8 +3,8 @@ package com.third_module.second_task;
 public class Tulip extends Flower {
     private String country;
 
-    public Tulip(String nameOfFlower, BouquetOfFlowers bouquet) {
-        super(nameOfFlower, bouquet);
+    public Tulip(String name) {
+        super(name);
     }
 
     @Override

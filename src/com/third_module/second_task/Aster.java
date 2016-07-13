@@ -1,10 +1,10 @@
 package com.third_module.second_task;
 
 public class Aster extends Flower {
-    private Integer number;
+    private int number;
 
-    public Aster(String nameOfFlower, BouquetOfFlowers bouquet) {
-        super(nameOfFlower, bouquet);
+    public Aster(String name) {
+        super(name);
     }
 
     @Override

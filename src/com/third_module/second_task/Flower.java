@@ -1,18 +1,14 @@
 package com.third_module.second_task;
 
 public class Flower {
-    private String nameOfFlower;
-    private BouquetOfFlowers bouquet;
+    private String name;
 
-    public Flower(String nameOfFlower, BouquetOfFlowers bouquet) {
-        this.nameOfFlower = nameOfFlower;
-        this.bouquet = bouquet;
-        bouquet.add(new Tulip(nameOfFlower, bouquet));
-        bouquet.add(new Chamomile(nameOfFlower, bouquet));
+    public Flower(String name) {
+        this.name = name;
     }
 
     @Override
     public String toString() {
-        return "These Flowers " + nameOfFlower + "add to the bouquet " + bouquet;
+        return "This Flower is " + name;
     }
 }
